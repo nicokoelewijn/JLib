@@ -1,4 +1,4 @@
 // vars/utils.groovy
-def getCurrentDate() {
+def call() {
     return sh(script: 'date "+%Y%m%d"', returnStdout: true).trim()
 }
